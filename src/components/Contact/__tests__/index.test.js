@@ -26,3 +26,5 @@ describe('Contact component renders', () => {
     const { getByTestId } = render(<Contact />)
     expect(getByTestId('button')).toHaveTextContent('Submit')
   })
+
+  
